@@ -3,4 +3,10 @@
 # 기능 개발이 진행되었습니다.
 git commit -m "기능1의 세부 기능1"
 git commit -m "기능1의 세부 기능2"
+git commit -m "기능1 개발 완료"
 
+# 머지를 위해 main 브랜치로 전환
+git switch main
+
+# main 브랜치로 feat/todo 브랜치를 병함
+git merge feat/todo
